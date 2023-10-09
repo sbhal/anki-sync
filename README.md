@@ -31,6 +31,9 @@ docker-compose up -d
 ```
 
 Replace the paths in `volumes` as in the above step.
+The environment variables are detailed at https://docs.ankiweb.net/sync-server.html.
+Image tags directly correspond with the ones found at https://github.com/ankitects/anki/tags.
+
 
 # Runbooks
 ## Push tags 
