@@ -1,4 +1,5 @@
 FROM rust AS build
+LABEL org.opencontainers.image.source="https://github.com/sbhal/anki-sync"
 
 ARG DEBIAN_FRONTEND="noninteractive"
 
