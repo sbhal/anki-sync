@@ -1,5 +1,5 @@
 # Overview
-This repository builds the official Anki sync server and offers it as a Docker container that can be hosted independently.
+This repository builds the official [Anki sync server](https://docs.ankiweb.net/sync-server.html) and offers it as a Docker container that can be hosted independently.
 
 ### Docker Compose
 
@@ -31,10 +31,12 @@ docker-compose up -d
 ```
 
 Replace the paths in `volumes` as in the above step.
-The environment variables are detailed at https://docs.ankiweb.net/sync-server.html.
-Image tags directly correspond with the ones found at https://github.com/ankitects/anki/tags.
 
+The environment variables are detailed at [here](https://docs.ankiweb.net/sync-server.html).
 
+List of image tags are available [here](https://github.com/sbhal/anki-sync/pkgs/container/anki-sync) and they directly correspond with the ones found at https://github.com/ankitects/anki/tags.
+
+This is done after offician maintainer declined to support in near future [here](https://github.com/ankitects/anki/issues/2715).
 # Runbooks
 ## Push tags 
 ```
